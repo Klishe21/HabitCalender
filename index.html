@@ -3,7 +3,36 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Habit Calender</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/calender.css" />
+		<link rel="shortcut icon" href="img/favicon.png" />
 	</head>
-	<body></body>
+	<body>
+		<div id="calender" class="calender hide">
+			<div class="calender-box">
+				<div class="calender-box-header">
+					<p class="current-date"></p>
+					<div class="calender-box-header-iconos">
+						<span id="prev"><i class="bi bi-arrow-left-short"></i></span>
+						<span id="next"><i class="bi bi-arrow-right-short"></i></span>
+					</div>
+				</div>
+				<div class="calender-box-contenido">
+					<ul class="semanas">
+						<li>Dom</li>
+						<li>Lun</li>
+						<li>Mar</li>
+						<li>Mie</li>
+						<li>Jue</li>
+						<li>Vie</li>
+						<li>Sab</li>
+					</ul>
+					<ul class="days"></ul>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/calender.js"></script>
 </html>
