@@ -1,7 +1,7 @@
 // calender
 const currentDate = document.querySelector(".current-date");
 const daysTag = document.querySelector(".days");
-const prevNextIcons = document.querySelectorAll(".calender-box-header-iconos span");
+const prevNextIcons = document.querySelectorAll(".calender-box-header-icons span");
 
 let date = new Date();
 

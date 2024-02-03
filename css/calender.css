@@ -19,7 +19,7 @@
 	font-size: 2rem;
 	font-weight: bold;
 }
-.calender-box-header-iconos span {
+.calender-box-header-icons span {
 	text-align: center;
 	padding: 5px;
 	margin: 0 1px;
@@ -28,7 +28,7 @@
 	font-size: 1.5rem;
 	color: red;
 }
-.calender-box-header-iconos span:hover {
+.calender-box-header-icons span:hover {
 	background: #c0c0c0;
 }
 .calender-box-contenido {
