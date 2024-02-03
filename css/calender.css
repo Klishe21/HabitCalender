@@ -2,12 +2,15 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	min-height: 80vh;
+	background-color: #595959;
+	padding: 2rem;
+	width: 130vh;
+	height: 50vh;
 }
 .calender-box {
-	width: 500px;
-	background-color: aliceblue;
-	border-radius: 1rem;
+	width: 110vh;
+	height: 40vh;
+	border-radius: 2rem;
 }
 .calender-box-header {
 	display: flex;
@@ -31,21 +34,19 @@
 .calender-box-header-icons span:hover {
 	background: #c0c0c0;
 }
-.calender-box-contenido {
+.calender-box-content {
 	padding: 20px;
-	padding-bottom: 5px;
 }
-.calender-box-contenido ul {
+.calender-box-content ul {
 	display: flex;
 	flex-wrap: wrap;
 	text-align: center;
 }
-.calender-box-contenido ul li {
+.calender-box-content ul li {
 	position: relative;
 	width: calc(100% / 7);
-	padding: 24px;
 }
-.calender-box-contenido .days li {
+.calender-box-content .days li {
 	cursor: pointer;
 	z-index: 1;
 }
@@ -55,7 +56,7 @@
 .days .activo {
 	color: #d4d4d4;
 }
-.calender-box-contenido .days li::before {
+.calender-box-content .days li::before {
 	content: "";
 	position: absolute;
 	top: 50%;
