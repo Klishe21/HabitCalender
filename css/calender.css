@@ -8,11 +8,12 @@
 	height: 100%;
 }
 .calender-box {
-	width: 50%;
-	height: 50%;
+	width: 40%;
+	height: 70%;
 	border-radius: 2rem;
 }
 .calender-box-header {
+	height: auto;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -21,6 +22,7 @@
 .current-date {
 	font-size: 2rem;
 	font-weight: bold;
+	text-shadow: brown 2px 1px;
 }
 .calender-box-header-icons span {
 	text-align: center;
@@ -35,7 +37,8 @@
 	background: #c0c0c0;
 }
 .calender-box-content {
-	padding: 20px;
+	padding-top: 20px;
+	height: auto;
 }
 .calender-box-content ul {
 	display: flex;
