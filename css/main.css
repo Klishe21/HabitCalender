@@ -1,4 +1,6 @@
 * {
 	background-color: antiquewhite;
 	font-family: "Protest Revolution", sans-serif;
+	overflow: hidden;
+	height: 100%;
 }

@@ -4,12 +4,12 @@
 	justify-content: center;
 	background-color: #595959;
 	padding: 2rem;
-	width: 130vh;
-	height: 50vh;
+	width: 100%;
+	height: 100%;
 }
 .calender-box {
-	width: 110vh;
-	height: 40vh;
+	width: 50%;
+	height: 50%;
 	border-radius: 2rem;
 }
 .calender-box-header {
