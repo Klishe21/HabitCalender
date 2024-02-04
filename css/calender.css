@@ -48,6 +48,7 @@
 .calender-box-content ul li {
 	position: relative;
 	width: calc(100% / 7);
+	padding: 20px 0 20px 0;
 }
 .calender-box-content .days li {
 	cursor: pointer;
