@@ -3,13 +3,12 @@
 	align-items: center;
 	justify-content: center;
 	background-color: #595959;
-	padding: 2rem;
 	width: 100%;
 	height: 100%;
 }
 .calender-box {
 	width: 30%;
-	height: 75%;
+	height: 78%;
 	border-radius: 2rem;
 }
 .calender-box-header {
@@ -31,10 +30,13 @@
 	border-radius: 50%;
 	cursor: pointer;
 	font-size: 1.5rem;
-	color: red;
+	color: brown;
 }
 .calender-box-header-icons span:hover {
-	background: #c0c0c0;
+	background: brown;
+}
+.weeks {
+	text-shadow: brown 1px 1px;
 }
 .calender-box-content {
 	padding-top: 20px;
@@ -48,17 +50,17 @@
 .calender-box-content ul li {
 	position: relative;
 	width: calc(100% / 7);
-	padding: 20px 0 20px 0;
+	padding: 21px 0 21px 0;
 }
 .calender-box-content .days li {
 	cursor: pointer;
 	z-index: 1;
 }
-.days .inactivo {
-	color: #d4d4d4;
+.days .inactive {
+	color: brown;
 }
-.days .activo {
-	color: #d4d4d4;
+.days .active {
+	color: white;
 }
 .calender-box-content .days li::before {
 	content: "";
@@ -72,10 +74,10 @@
 }
 
 .days li:hover {
-	background: #e0e0e0;
+	background: lightgrey;
 	border-radius: 50%;
 }
-.days li.activo::before {
-	background: #595959;
+.days li.active::before {
+	background: grey;
 	border-radius: 50%;
 }

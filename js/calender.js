@@ -19,18 +19,18 @@ const renderCalendar = () => {
     let litag = "";
     
     for (let i = firstDayOfMonth; i > 0; i--) {
-        litag += `<li class="inactivo" >${lastDateOfLastMonth - i + 1}</li>`
+        litag += `<li class="inactive" >${lastDateOfLastMonth - i + 1}</li>`
         
     }
 
     for (let i = 1; i <= lastDateOfMonth; i++) {
         let isToday = i === date.getDate() && currentMonth === new Date().getMonth() 
-            && currentYear === new Date().getFullYear() ? "activo" : "";
+            && currentYear === new Date().getFullYear() ? "active" : "";
         litag += `<li class="${isToday}">${i}</li>`
     }
 
         for (let i = lastDayOfMonth; i < 6; i++) {
-        litag += `<li class="inactivo" >${i - lastDayOfMonth + 1}</li>`
+        litag += `<li class="inactive" >${i - lastDayOfMonth + 1}</li>`
         
     }
     currentDate.innerText=`${months[currentMonth]} ${currentYear}`
