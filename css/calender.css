@@ -1,3 +1,6 @@
+.set {
+	display: none;
+}
 .calender {
 	display: flex;
 	align-items: center;
