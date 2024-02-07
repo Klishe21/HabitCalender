@@ -1,0 +1,8 @@
+.mainMenu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.pp {
+	height: auto;
+}
