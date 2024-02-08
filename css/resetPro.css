@@ -19,12 +19,12 @@
 }
 
 /* Las adaptamos al modo oscuro */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
 	:root {
 		--colorPrimario: #ececec;
 		--colorSecundario: #181818;
 	}
-}
+} */
 /* Opcional */
 /* Configuramos si un usuario ha activado el modo alto contraste. (WD) */
 /* Opcional */
@@ -174,18 +174,12 @@ svg {
 body {
 	min-height: 100vh;
 	font-size: 100%;
-	font-family: var(--tipo-principal);
-	color: var(--negro);
+	font-family: var(--tipoPrincipal);
+	color: var(--colorPrimario);
 	/* opcional */
 	line-height: 1.4em;
 	/* opcional */
 	-webkit-hyphens: auto;
 	-ms-hyphens: auto;
 	hyphens: auto;
-	/* opcional */
-	font-smooth: always;
-	/* opcional */
-	-webkit-font-smoothing: antialiased;
-	/* opcional */
-	-moz-osx-font-smoothing: grayscale;
 }

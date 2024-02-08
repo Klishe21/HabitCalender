@@ -51,10 +51,3 @@ prevNextIcons.forEach(icon =>{
         renderCalendar();
     })
 })
-
-//Funcion que muestra el calendario a hacer click
-const calender = document.getElementById("calender")
-const buttonCalender = document.getElementById("calenderId")
-buttonCalender.addEventListener("click", () => {
-    calender.classList.toggle("hide")
-})
