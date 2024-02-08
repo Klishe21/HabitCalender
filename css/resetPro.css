@@ -1,14 +1,4 @@
 @charset "UTF-8";
-/*
-
-  Con este reset vamos a resolver:
-    👉 Unificar el uso de Custom Properties
-    👉 Problemas de box-model más generales
-    👉 Problemas con imagenes, vídeos e iconos svg
-    👉 Problemas con tipografías y etiquetas input en formularios
-    👉 Unificar la tipografía de todas las etiquetas de una web
-
-*/
 /* Aquí definimos las Custom properties */
 :root {
 	--colorPrimario: #181818;
@@ -108,6 +98,7 @@ em {
 	font-style: inherit;
 	text-decoration: none;
 	color: inherit;
+	height: auto;
 }
 
 /* Evitamos problemas con los pseudoelementos de quotes */
@@ -145,9 +136,9 @@ label {
 	color: inherit;
 	display: block;
 	/* opcional */
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
+	-webkit-aearance: none;
+	-moz-aearance: none;
+	aearance: none;
 }
 
 /* Reseteamos las tablas */
