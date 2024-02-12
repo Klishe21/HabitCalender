@@ -136,9 +136,9 @@ label {
 	color: inherit;
 	display: block;
 	/* opcional */
-	-webkit-aearance: none;
-	-moz-aearance: none;
-	aearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 
 /* Reseteamos las tablas */
