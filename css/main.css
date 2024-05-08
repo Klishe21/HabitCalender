@@ -2,8 +2,9 @@
 	font-family: "Protest Strike", sans-serif;
 }
 body {
+	/*
 	background: rgb(185, 167, 170);
-	background: linear-gradient(19deg, rgba(185, 167, 170, 1) 0%, rgba(114, 22, 22, 1) 46%, rgba(45, 8, 20, 1) 84%);
+	background: linear-gradient(19deg, rgba(185, 167, 170, 1) 0%, rgba(114, 22, 22, 1) 46%, rgba(45, 8, 20, 1) 84%);*/
 }
 .unstyle {
 	all: unset;
