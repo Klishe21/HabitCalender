@@ -29,6 +29,7 @@
 }
 /* Reseteamos los margin y paddings de todas las etiquetas */
 * {
+	margin: 0;
 	padding: 0;
 	border: 0;
 	-webkit-box-sizing: border-box;
