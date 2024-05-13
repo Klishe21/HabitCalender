@@ -11,3 +11,10 @@
 	font-size: 5rem;
 	color: black;
 }
+.enterButton {
+	font-size: 2rem;
+	color: black;
+	background-color: antiquewhite;
+	border-radius: 2rem;
+	border: 5px solid #000;
+}
