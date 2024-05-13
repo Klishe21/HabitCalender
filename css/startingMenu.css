@@ -1,10 +1,8 @@
 .startingMenu {
 	display: flex;
 	flex-direction: column;
-	padding: 1rem;
-	justify-content: space-between;
 	align-items: center;
-	font-size: 2rem;
 	color: white;
+	font-size: 1.5rem;
 	text-shadow: brown 2px 2px;
 }
